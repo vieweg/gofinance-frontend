@@ -68,6 +68,7 @@ export const TableContainer = styled.section`
       border: 0;
       background: #fff;
       font-size: 16px;
+      line-height: 24px;
       font-weight: normal;
       color: #969cb3;
 
@@ -81,6 +82,10 @@ export const TableContainer = styled.section`
 
       &.outcome {
         color: #e83f5b;
+      }
+
+      svg {
+        margin-right: 14px;
       }
     }
 
